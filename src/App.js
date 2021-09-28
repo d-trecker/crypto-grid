@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import { Switch, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import { Crypto, Exchanges, Homepage, CryptoDetails, News } from "./pages";
 import "./App.css";
 
@@ -33,8 +33,9 @@ function App() {
             </Switch>
           </div>
         </Layout>
+
+        <Footer />
       </div>
-      {/* <div className="footer"></div> */}
     </div>
   );
 }
