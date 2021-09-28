@@ -1,0 +1,45 @@
+:root {
+  --text-color: #00748A;
+  --neonc-blue: rgba(0,21,41,0.9);
+  --neon-blue: #00f9ff;
+  --border: #d9d9d9;
+}
+
+.navbar {
+  flex: 0.2;
+  background-color: var(--neonc-blue);
+}
+.navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: var(--neon-blue) !important;
+}
+.navbar a:focus {
+  color: var(--neon-blue);
+}
+
+.logo-container {
+  background-color: var(--neonc-blue);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.nav-container {
+  position: fixed;
+  left: 0;
+  margin: 10px;
+  height: 100vh;
+  margin: 0px;
+  background-color: var(--neonc-blue);
+}
+
+svg {
+  color: var(--text-color);
+}
+
+/*# sourceMappingURL=style.css.map */
