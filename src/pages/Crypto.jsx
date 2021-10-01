@@ -10,8 +10,9 @@ const Crypto = ({ simplified }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    
-    const filteredData = cryptosList?.data?.coins.filter((coin) => coin.name.toLowerCase().includes(searchTerm.toLowerCase()));
+    const filteredData = cryptosList?.data?.coins.filter((coin) =>
+      coin.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
     setCryptos(filteredData);
   }, [cryptosList, searchTerm]);
@@ -20,12 +21,15 @@ const Crypto = ({ simplified }) => {
 
   return (
     <>
-      <div className="search-crypto">
-        <Input
-          placeholder="Search Crypto"
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+      {!simplified && (
+        <div className="search-crypto">
+          <Input
+            placeholder="Search Crypto"
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+      )}
+
       <Row gutter={[32, 32]} className="crypto-card-container">
         {cryptos?.map((currency) => (
           <Col xs={24} sm={12} lg={6} className="crypto-card" key={currency.id}>
