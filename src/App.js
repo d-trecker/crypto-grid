@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
-import { Switch, Route, Link } from "react-router-dom";
-import { Layout, Typography, Space } from "antd";
+import { Switch, Route } from "react-router-dom";
+import { Layout } from "antd";
 import { Navbar, Footer } from "./components";
 import { Crypto, Exchanges, Homepage, CryptoDetails, News } from "./pages";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="navbar">
         <Navbar />
       </div>

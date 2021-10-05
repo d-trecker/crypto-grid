@@ -15,18 +15,10 @@ export const cryptoApi = createApi({
     getCryptos: builder.query({
       query: (count) => createRequest(`/coins?limit=${count}`),
     }),
+    getCryptoDetails: builder.query({
+      query: (coinId) => createRequest(`/coin/${coinId}`),
+    }),
   }),
 });
 
-export const {
-    useGetCryptosQuery,
-} = cryptoApi;
-
-// var options = {
-//     method: 'GET',
-//     url: 'https://coinranking1.p.rapidapi.com/stats',
-//     headers: {
-//       'x-rapidapi-host': 'coinranking1.p.rapidapi.com',
-//       'x-rapidapi-key': 'c374d33544msh7476492ca5f567dp1211d8jsn2a382df22e9d'
-//     }
-//   };
+export const { useGetCryptosQuery, useGetCryptoDetailsQuery } = cryptoApi;
