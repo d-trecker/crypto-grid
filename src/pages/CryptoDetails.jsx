@@ -14,21 +14,23 @@ import {
   NumberOutlined,
   ThunderboltOutlined,
 } from "@ant-design/icons";
-import { useGetCryptoDetailsQuery } from "../services/cryptoApi";
+import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } from "../services/cryptoApi";
+import LineChart from '../components/LineChart';
 
 const { Title, Text } = Typography;
 const { Option } = Select;
 
 const CryptoDetails = () => {
   const { coinId } = useParams();
-  const [timePeriod, setTimePeriod] = useState("7d");
+  const [timePeriod, setTimePeriod] = useState("24h");
   const { data, isFetching } = useGetCryptoDetailsQuery(coinId);
+  const { data: coinHistory } = useGetCryptoHistoryQuery({coinId, timePeriod});
 
   const cryptoDetails = data?.data?.coin;
 
   //   console.log(cryptoDetails);
   if (isFetching) return "is loading...";
-  const time = ["3h", "24h", "7d", "30d", "3m", "1y", "3y", "5y"];
+  const time = ["24h", "7d", "30d", "1y", "5y"];
 
   const stats = [
     {
@@ -85,7 +87,7 @@ const CryptoDetails = () => {
       icon: <ExclamationCircleOutlined />,
     },
   ];
-  //   console.log(data);
+    console.log(coinHistory);
   return (
     <Col className="coin-detail-container">
       <Col className="coin-heading-container">
@@ -98,7 +100,7 @@ const CryptoDetails = () => {
         </p>
       </Col>
       <Select
-        defaultValue="7d"
+        defaultValue="24h"
         className="select-timeperiod"
         placeholder="Select Time Period"
         onChange={(value) => setTimePeriod(value)}
@@ -107,6 +109,7 @@ const CryptoDetails = () => {
           <Option key={date}>{date}</Option>
         ))}
       </Select>
+      <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails.price)} coinName={cryptoDetails.name}/>
       <Col className="stats-container">
         <Col className="coin-value-statistics">
           <Col className="coin-value-statistics-heading">
