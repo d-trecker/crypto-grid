@@ -15,6 +15,7 @@ import {
   ThunderboltOutlined,
 } from "@ant-design/icons";
 import { useGetCryptoDetailsQuery, useGetCryptoHistoryQuery } from "../services/cryptoApi";
+import Loader from '../components/Loader';
 import LineChart from '../components/LineChart';
 
 const { Title, Text } = Typography;
@@ -29,7 +30,7 @@ const CryptoDetails = () => {
   const cryptoDetails = data?.data?.coin;
 
   //   console.log(cryptoDetails);
-  if (isFetching) return "is loading...";
+  if (isFetching) return <Loader/>;
   const time = ["24h", "7d", "30d", "1y", "5y"];
 
   const stats = [

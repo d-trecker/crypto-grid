@@ -53,13 +53,6 @@ app {
   border: none !important;
 }
 
-.loader {
-  height: 81vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .home-heading-container {
   display: flex;
   justify-content: space-between;

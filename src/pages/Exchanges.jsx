@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Loader from '../components/Loader'
 const Exchanges = () => {
     return (
         <div>
-            Exchanges
+            <Loader/>
         </div>
     )
 }
