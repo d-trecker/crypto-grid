@@ -21,7 +21,7 @@ const News = ({ simplified }) => {
   const { data } = useGetCryptosQuery(100);
   if (!cryptoNews?.value) return <Loader/>;
   return (
-    <Row gutter={[24, 24]}>
+    <Row gutter={[24, 24]} className="crypto-card-container">
       {!simplified && (
         <Col span={24}>
           <Select

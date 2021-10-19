@@ -406,10 +406,10 @@ canvas {
   margin-top: 40px;
 }
 .home-heading-container a {
-  color: var(--neon-blue) !important;
+  color: var(--text-alt) !important;
 }
 .home-heading-container h3 :hover {
-  color: var(--hover-blue) !important;
+  color: var(--text-primary) !important;
 }
 
 .top-ten-container {
@@ -424,6 +424,10 @@ canvas {
 
 .show-more {
   margin-top: 0px !important;
+}
+
+.exchange-header-container {
+  color: var(--neon-blue) !important;
 }
 
 .exchange-image {
