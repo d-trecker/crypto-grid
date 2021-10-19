@@ -1,35 +1,8 @@
 :root {
   --text-color: #00748A;
-  --neonc-blue: rgba(0,21,41,0.9);
+  --neonc-blue: rgba(0,21,41);
   --neon-blue: #00f9ff;
   --border: #d9d9d9;
-}
-
-.navbar {
-  flex: 0.2;
-  background-color: var(--neonc-blue);
-}
-.navbar a {
-  color: var(--text-color) !important;
-  text-decoration: none;
-}
-.navbar a:before {
-  color: var(--text-color) !important;
-}
-.navbar a:hover {
-  color: var(--neon-blue) !important;
-}
-.navbar a:focus {
-  color: var(--neon-blue);
-}
-
-.logo-container {
-  background-color: var(--neonc-blue);
-  display: flex;
-  padding: 20px;
-  align-items: center;
-  width: 100%;
-  color: var(--text-color);
 }
 
 .nav-container {
@@ -41,8 +14,54 @@
   background-color: var(--neonc-blue);
 }
 
+.logo-container {
+  background-color: var(--neonc-blue);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  color: var(--text-color);
+}
+
+.logo {
+  margin: 0 0 0 15px;
+}
+
+.logo a {
+  color: white;
+}
+
 svg {
   color: var(--text-color);
+}
+
+.menu-control-container {
+  display: none !important;
+  position: absolute !important;
+  right: 10px !important;
+  top: 25px !important;
+  font-size: 1.2rem !important;
+  background-color: var(--bgSecondary) !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-container {
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: var(--bgSecondary);
+  }
+
+  .menu-control-container {
+    display: block !important;
+  }
+
+  .ant-menu {
+    position: absolute;
+    right: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

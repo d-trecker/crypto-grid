@@ -101,6 +101,7 @@ const CryptoDetails = () => {
         </p>
       </Col>
       <Select
+        theme="dark"
         defaultValue="24h"
         className="select-timeperiod"
         placeholder="Select Time Period"

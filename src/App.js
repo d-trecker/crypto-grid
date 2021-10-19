@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { Switch, Route } from "react-router-dom";
 import { Layout } from "antd";
 import { Navbar, Footer } from "./components";
@@ -33,7 +32,6 @@ function App() {
             </Switch>
           </div>
         </Layout>
-
         <Footer />
       </div>
     </div>
