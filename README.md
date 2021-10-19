@@ -39,7 +39,7 @@ Created  with:
 
 ### Links
 Repo Link: https://github.com/d-trecker/crypto-grid.git </br>
-Deployed Link:  </br>
+Deployed Link: https://d-trecker.github.io/crypto-grid  </br>
 
 
 ### Contact

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Switch, Route } from "react-router-dom";
 import { Layout } from "antd";
 import { Navbar, Footer } from "./components";
@@ -15,6 +16,9 @@ function App() {
           <div className="routes">
             <Switch>
               <Route exact path="/">
+                <Homepage />
+              </Route>
+              <Route exact path="/crypto-grid">
                 <Homepage />
               </Route>
               <Route exact path="/exchanges">
