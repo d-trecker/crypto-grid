@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/crypto-grid/static/css/main.84d5ed5e.chunk.css",
+    "main.js": "/crypto-grid/static/js/main.b47ec06f.chunk.js",
+    "main.js.map": "/crypto-grid/static/js/main.b47ec06f.chunk.js.map",
+    "runtime-main.js": "/crypto-grid/static/js/runtime-main.43e4c523.js",
+    "runtime-main.js.map": "/crypto-grid/static/js/runtime-main.43e4c523.js.map",
+    "static/css/2.f7861fd5.chunk.css": "/crypto-grid/static/css/2.f7861fd5.chunk.css",
+    "static/js/2.9cb0cfed.chunk.js": "/crypto-grid/static/js/2.9cb0cfed.chunk.js",
+    "static/js/2.9cb0cfed.chunk.js.map": "/crypto-grid/static/js/2.9cb0cfed.chunk.js.map",
+    "index.html": "/crypto-grid/index.html",
+    "precache-manifest.3cdeed3774c02364c2683f510fcf6863.js": "/crypto-grid/precache-manifest.3cdeed3774c02364c2683f510fcf6863.js",
+    "service-worker.js": "/crypto-grid/service-worker.js",
+    "static/css/2.f7861fd5.chunk.css.map": "/crypto-grid/static/css/2.f7861fd5.chunk.css.map",
+    "static/css/main.84d5ed5e.chunk.css.map": "/crypto-grid/static/css/main.84d5ed5e.chunk.css.map",
+    "static/js/2.9cb0cfed.chunk.js.LICENSE.txt": "/crypto-grid/static/js/2.9cb0cfed.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/crypto-grid/static/media/Tr2n.8b4f4718.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43e4c523.js",
+    "static/css/2.f7861fd5.chunk.css",
+    "static/js/2.9cb0cfed.chunk.js",
+    "static/css/main.84d5ed5e.chunk.css",
+    "static/js/main.b47ec06f.chunk.js"
+  ]
+}
