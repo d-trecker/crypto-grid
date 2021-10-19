@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0c3c4e888c884c4648a0c8c4a6d6dbe",
+    "revision": "cc2d90c4017d04d34e100d2280b4373c",
     "url": "/crypto-grid/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crypto-grid/static/css/2.f7861fd5.chunk.css"
   },
   {
-    "revision": "be4b4e5ce44ea1a2b658",
+    "revision": "604599945aad131e622e",
     "url": "/crypto-grid/static/css/main.84d5ed5e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crypto-grid/static/js/2.9cb0cfed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be4b4e5ce44ea1a2b658",
-    "url": "/crypto-grid/static/js/main.b47ec06f.chunk.js"
+    "revision": "604599945aad131e622e",
+    "url": "/crypto-grid/static/js/main.476d8058.chunk.js"
   },
   {
     "revision": "4ad8025356cfd2e22f79",
