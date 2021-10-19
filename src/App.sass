@@ -12,6 +12,12 @@
     --lightBlueClear: rgba(0, 232, 255, 0.1)
     --hover-blue: #00fbff59
 
+@font-face 
+  font-family:"tron"
+  src: url(./assets/fonts/Tr2n.ttf)
+
+
+
 * 
     margin: 0
     padding: 0
@@ -50,12 +56,9 @@ body
     background-repeat: no-repeat
     background-attachment: fixed
     h2 
-        color: white !important
-    a
         color: var(--neon-blue) !important
-        :hover
-            color: red !important
-
+        font-family: tron
+        letter-spacing: .2rem
 
 @media screen and (max-width:1300px)
     .main
@@ -96,6 +99,7 @@ body
     
     .show-more
         font-size: 1.3rem !important
+        
 
 //----Home Page Styling----
 .global-stat-container
@@ -108,7 +112,9 @@ body
   h1
     color: var(--text-alt) !important
   h2
-    color: white !important
+    color: var(--neon-blue) !important
+    font-family: tron
+    letter-spacing: .2rem
   div
     color: var(--text-alt) !important
   .ant-row
@@ -385,16 +391,17 @@ canvas
     justify-content: space-between
     align-items: center
     margin-top: 40px
+    a
+        color: var(--neon-blue) !important
+    h3
+        :hover
+            color: var(--hover-blue) !important
     
 .top-ten-container
   margin-top: 40px
   padding-bottom: 3em
   padding-left: 3em
-  padding-right: 3em
-  
-  
-  h2  
-    color: white !important
+  padding-right: 3e
   a
     color: white
 

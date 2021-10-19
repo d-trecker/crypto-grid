@@ -11,6 +11,10 @@
   --hover-blue: #00fbff59;
 }
 
+@font-face {
+  font-family: "tron";
+  src: url(./assets/fonts/Tr2n.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -50,13 +54,9 @@ body {
   background-attachment: fixed;
 }
 .routes h2 {
-  color: white !important;
-}
-.routes a {
   color: var(--neon-blue) !important;
-}
-.routes a :hover {
-  color: red !important;
+  font-family: tron;
+  letter-spacing: 0.2rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -111,7 +111,9 @@ body {
   color: var(--text-alt) !important;
 }
 .global-stat-container h2 {
-  color: white !important;
+  color: var(--neon-blue) !important;
+  font-family: tron;
+  letter-spacing: 0.2rem;
 }
 .global-stat-container div {
   color: var(--text-alt) !important;
@@ -403,15 +405,18 @@ canvas {
   align-items: center;
   margin-top: 40px;
 }
+.home-heading-container a {
+  color: var(--neon-blue) !important;
+}
+.home-heading-container h3 :hover {
+  color: var(--hover-blue) !important;
+}
 
 .top-ten-container {
   margin-top: 40px;
   padding-bottom: 3em;
   padding-left: 3em;
-  padding-right: 3em;
-}
-.top-ten-container h2 {
-  color: white !important;
+  padding-right: 3e;
 }
 .top-ten-container a {
   color: white;

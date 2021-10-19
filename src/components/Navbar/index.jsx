@@ -29,7 +29,7 @@ export const Navbar = () => {
             <div className= "logo-container">
                 {/* <Avatar/> */}
                 <Typography.Title level={2} className="logo">
-                    <Link to="/">The Crypto Grid</Link>
+                    <Link to="/">Crypto Grid</Link>
                 </Typography.Title>
                 <Button className= "menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined/></Button>
             </div>
