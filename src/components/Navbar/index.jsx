@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {Button, Menu, Typography, Avatar} from 'antd';
+import {Button, Menu, Typography} from 'antd';
 import { Link } from 'react-router-dom';
 import {HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined} from '@ant-design/icons';
 import "./style.css";
@@ -34,7 +34,7 @@ export const Navbar = () => {
                 <Button className= "menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined/></Button>
             </div>
             {activeMenu && (
-            <Menu theme="dark">
+            <Menu theme="dark" className="ant-menu">
                 <Menu.Item key={'homes'} icon={<HomeOutlined/>} >
                     <Link to="/">Home</Link>
                 </Menu.Item>

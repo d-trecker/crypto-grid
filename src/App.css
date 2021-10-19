@@ -8,6 +8,7 @@
   --border: #d9d9d9;
   --blueClear: rgba(0,21,41,0.6);
   --lightBlueClear: rgba(0, 232, 255, 0.1);
+  --hover-blue: #00fbff59;
 }
 
 * {
@@ -48,9 +49,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-h2 {
+.routes h2 {
   color: white !important;
+}
+.routes a {
+  color: var(--neon-blue) !important;
+}
+.routes a :hover {
+  color: red !important;
 }
 
 @media screen and (max-width: 1300px) {

@@ -10,6 +10,7 @@
     --border: #d9d9d9
     --blueClear: rgba(0,21,41,0.6)
     --lightBlueClear: rgba(0, 232, 255, 0.1)
+    --hover-blue: #00fbff59
 
 * 
     margin: 0
@@ -48,8 +49,12 @@ body
     background-image: linear-gradient(#00E8FF -150%, #001631 50%, #00E8FF 200%)
     background-repeat: no-repeat
     background-attachment: fixed
-h2 
-    color: white !important
+    h2 
+        color: white !important
+    a
+        color: var(--neon-blue) !important
+        :hover
+            color: red !important
 
 
 @media screen and (max-width:1300px)

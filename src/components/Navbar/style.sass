@@ -2,6 +2,7 @@
  --text-color: #00748A
  --neonc-blue: rgba(0,21,41)
  --neon-blue: #00f9ff
+ --hover-blue: #00fbff59
  --border: #d9d9d9
 
 
@@ -20,6 +21,11 @@
   align-items: center
   width: 100%
   color: var(--text-color) 
+  a
+    color: var(--neon-blue) !important
+    
+.ant-menu-item-selected
+    background-color: var(--hover-blue) !important
 
 .logo
     margin:0 0 0 15px
@@ -28,7 +34,7 @@
    color: white  
   
 svg
-    color: var(--text-color)
+    color: var(--neon-blue)
 
 .menu-control-container
     display: none !important
