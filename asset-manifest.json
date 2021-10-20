@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/crypto-grid/static/css/main.84d5ed5e.chunk.css",
-    "main.js": "/crypto-grid/static/js/main.476d8058.chunk.js",
-    "main.js.map": "/crypto-grid/static/js/main.476d8058.chunk.js.map",
+    "main.css": "/crypto-grid/static/css/main.87fdb07b.chunk.css",
+    "main.js": "/crypto-grid/static/js/main.8285c44d.chunk.js",
+    "main.js.map": "/crypto-grid/static/js/main.8285c44d.chunk.js.map",
     "runtime-main.js": "/crypto-grid/static/js/runtime-main.43e4c523.js",
     "runtime-main.js.map": "/crypto-grid/static/js/runtime-main.43e4c523.js.map",
     "static/css/2.f7861fd5.chunk.css": "/crypto-grid/static/css/2.f7861fd5.chunk.css",
-    "static/js/2.9cb0cfed.chunk.js": "/crypto-grid/static/js/2.9cb0cfed.chunk.js",
-    "static/js/2.9cb0cfed.chunk.js.map": "/crypto-grid/static/js/2.9cb0cfed.chunk.js.map",
+    "static/js/2.3551ce3b.chunk.js": "/crypto-grid/static/js/2.3551ce3b.chunk.js",
+    "static/js/2.3551ce3b.chunk.js.map": "/crypto-grid/static/js/2.3551ce3b.chunk.js.map",
     "index.html": "/crypto-grid/index.html",
-    "precache-manifest.597126a3c84d06b25130a20bdf7513de.js": "/crypto-grid/precache-manifest.597126a3c84d06b25130a20bdf7513de.js",
+    "precache-manifest.acea8e2136085195a3f31b8b96341ca2.js": "/crypto-grid/precache-manifest.acea8e2136085195a3f31b8b96341ca2.js",
     "service-worker.js": "/crypto-grid/service-worker.js",
     "static/css/2.f7861fd5.chunk.css.map": "/crypto-grid/static/css/2.f7861fd5.chunk.css.map",
-    "static/css/main.84d5ed5e.chunk.css.map": "/crypto-grid/static/css/main.84d5ed5e.chunk.css.map",
-    "static/js/2.9cb0cfed.chunk.js.LICENSE.txt": "/crypto-grid/static/js/2.9cb0cfed.chunk.js.LICENSE.txt",
+    "static/css/main.87fdb07b.chunk.css.map": "/crypto-grid/static/css/main.87fdb07b.chunk.css.map",
+    "static/js/2.3551ce3b.chunk.js.LICENSE.txt": "/crypto-grid/static/js/2.3551ce3b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/crypto-grid/static/media/Tr2n.8b4f4718.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.43e4c523.js",
     "static/css/2.f7861fd5.chunk.css",
-    "static/js/2.9cb0cfed.chunk.js",
-    "static/css/main.84d5ed5e.chunk.css",
-    "static/js/main.476d8058.chunk.js"
+    "static/js/2.3551ce3b.chunk.js",
+    "static/css/main.87fdb07b.chunk.css",
+    "static/js/main.8285c44d.chunk.js"
   ]
 }
