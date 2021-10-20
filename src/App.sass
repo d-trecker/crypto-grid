@@ -114,7 +114,7 @@ body
     font-family: tron
     letter-spacing: .2rem
   div
-    color: var(--text-alt) !important
+    color: white !important
   .ant-row
     border: 2px solid var(--neon-blue)
   .ant-col
@@ -130,9 +130,22 @@ body
 .select-news
     width: 180px
 
-.news-card
+.ant-select-selector
+    background-color: var(--blueClear) !important
+    border: 1px solid var(--neon-blue) !important
+
+.news-card.ant-card
     min-height: 300px !important
     height: 100%
+    background-color: var(--blueClear) !important
+    border: 1px solid var(--neon-blue)
+    h4
+        color: white !important
+    p
+        color: white !important
+    span
+        color: white !important
+    
 
 .news-image-container
     display: flex !important
@@ -172,7 +185,15 @@ canvas
 
 .coin-detail-container
     margin: 30px
-
+    .ant-select-selector
+        background-color: var(--blueClear) !important
+        border: solid 1px var(--neon-blue) !important
+        margin-bottom: .5rem
+    .ant-select-selection-item
+        color: var(--neon-blue)
+    .ant-select-dropdown
+        background-color: var(--blueClear) !important
+        color: var(--neon-blue) !important
 
 .coin-heading-container
     display: flex
@@ -408,13 +429,35 @@ canvas
 
 .exchange-header-container
     color: var(--neon-blue) !important
-
+    font-weight: bold
+   
+.exchange-container
+    .ant-collapse
+        background-color: var(--lightBlueClear) !important
+        
+        div
+            color: white !important
+        strong
+            color: white !important
+    .ant-collapse-content
+        background-color: var(--lightBlueClear) !important
+        
+        h3
+            color: white !important
+        h2
+            color: white !important
+            font-family: none
 .exchange-image
     margin: 0px 10px !important
 
 .search-crypto
     margin: 20px auto 30px auto
     width: 250px
+
+.ant-input
+    background-color: var(--blueClear) !important
+    border: 1px solid var(--neon-blue) !important
+    color: var(--neon-blue) !important
 
 .crypto-card-container
     min-height: 65vh !important
@@ -427,6 +470,14 @@ canvas
 
 .crypto-card
     min-width: 250px
+    .ant-card
+        background-color: var(--blueClear)
+        color: white
+        border: 1px solid var(--neon-blue)
+        .ant-card-head
+            border-bottom: 1px solid var(--neon-blue)
+        .ant-card-head-title
+            color: white
 
 .crypto-card .crypto-image
     width:35px

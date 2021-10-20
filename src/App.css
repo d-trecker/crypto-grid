@@ -116,7 +116,7 @@ body {
   letter-spacing: 0.2rem;
 }
 .global-stat-container div {
-  color: var(--text-alt) !important;
+  color: white !important;
 }
 .global-stat-container .ant-row {
   border: 2px solid var(--neon-blue);
@@ -132,9 +132,25 @@ body {
   width: 180px;
 }
 
-.news-card {
+.ant-select-selector {
+  background-color: var(--blueClear) !important;
+  border: 1px solid var(--neon-blue) !important;
+}
+
+.news-card.ant-card {
   min-height: 300px !important;
   height: 100%;
+  background-color: var(--blueClear) !important;
+  border: 1px solid var(--neon-blue);
+}
+.news-card.ant-card h4 {
+  color: white !important;
+}
+.news-card.ant-card p {
+  color: white !important;
+}
+.news-card.ant-card span {
+  color: white !important;
 }
 
 .news-image-container {
@@ -173,6 +189,18 @@ canvas {
 
 .coin-detail-container {
   margin: 30px;
+}
+.coin-detail-container .ant-select-selector {
+  background-color: var(--blueClear) !important;
+  border: solid 1px var(--neon-blue) !important;
+  margin-bottom: 0.5rem;
+}
+.coin-detail-container .ant-select-selection-item {
+  color: var(--neon-blue);
+}
+.coin-detail-container .ant-select-dropdown {
+  background-color: var(--blueClear) !important;
+  color: var(--neon-blue) !important;
 }
 
 .coin-heading-container {
@@ -428,6 +456,27 @@ canvas {
 
 .exchange-header-container {
   color: var(--neon-blue) !important;
+  font-weight: bold;
+}
+
+.exchange-container .ant-collapse {
+  background-color: var(--lightBlueClear) !important;
+}
+.exchange-container .ant-collapse div {
+  color: white !important;
+}
+.exchange-container .ant-collapse strong {
+  color: white !important;
+}
+.exchange-container .ant-collapse-content {
+  background-color: var(--lightBlueClear) !important;
+}
+.exchange-container .ant-collapse-content h3 {
+  color: white !important;
+}
+.exchange-container .ant-collapse-content h2 {
+  color: white !important;
+  font-family: none;
 }
 
 .exchange-image {
@@ -437,6 +486,12 @@ canvas {
 .search-crypto {
   margin: 20px auto 30px auto;
   width: 250px;
+}
+
+.ant-input {
+  background-color: var(--blueClear) !important;
+  border: 1px solid var(--neon-blue) !important;
+  color: var(--neon-blue) !important;
 }
 
 .crypto-card-container {
@@ -451,6 +506,17 @@ canvas {
 
 .crypto-card {
   min-width: 250px;
+}
+.crypto-card .ant-card {
+  background-color: var(--blueClear);
+  color: white;
+  border: 1px solid var(--neon-blue);
+}
+.crypto-card .ant-card .ant-card-head {
+  border-bottom: 1px solid var(--neon-blue);
+}
+.crypto-card .ant-card .ant-card-head-title {
+  color: white;
 }
 
 .crypto-card .crypto-image {
